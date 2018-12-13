@@ -30,7 +30,7 @@ public class Main {
 				e.printStackTrace();
 			}
 		}
-		startDay = 1;
+		startDay = 13;
 		//endDay = 26;
 
 		// some solutions are very slow
