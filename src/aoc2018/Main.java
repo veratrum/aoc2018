@@ -30,13 +30,13 @@ public class Main {
 				e.printStackTrace();
 			}
 		}
-		startDay = 13;
+		startDay = 1;
 		//endDay = 26;
 
 		// some solutions are very slow
 		boolean skip = true;
-		List<Integer> skip1 = Arrays.asList(3, 5);
-		List<Integer> skip2 = Arrays.asList(5, 9, 11);
+		List<Integer> skip1 = Arrays.asList(3, 5, 14);
+		List<Integer> skip2 = Arrays.asList(5, 9, 11, 14);
 		
 		for (int i = startDay; i <= endDay; i++) {
 			System.out.println("=== Day " + i + " ===");
