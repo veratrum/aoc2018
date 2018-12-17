@@ -144,7 +144,6 @@ public class Day17 extends Day {
 								toAdd.add(new Point(flow.y, i));
 							}
 							
-							//System.out.println(new Point(flow.y, i));
 							if (map.get(flow.y + 1).get(i) != CLAY && map.get(flow.y + 1).get(i) != STILL) {
 								break;
 							}
@@ -305,7 +304,6 @@ public class Day17 extends Day {
 								toAdd.add(new Point(flow.y, i));
 							}
 							
-							//System.out.println(new Point(flow.y, i));
 							if (map.get(flow.y + 1).get(i) != CLAY && map.get(flow.y + 1).get(i) != STILL) {
 								break;
 							}
