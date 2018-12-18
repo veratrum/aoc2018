@@ -31,7 +31,7 @@ public class Main {
 			}
 		}
 		
-		startDay = 1;
+		startDay = 18;
 		//endDay = 26;
 
 		// some solutions are very slow
